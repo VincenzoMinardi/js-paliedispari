@@ -21,9 +21,6 @@ function check(number){
     }
 }
 
-
-
-
 if(user === esito){
     console.log('Hai Vinto');
 }
