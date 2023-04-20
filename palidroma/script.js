@@ -17,8 +17,10 @@
 
 // palindromo(parola);
 
- const parola = (prompt('Inserisci una parola'));
 
+// chiedere all'utente "inserisci una parola"
+ const parola = (prompt('Inserisci una parola'));
+// creare un funziona affinchè la parola che ha scritto l'utente venga messa al contrario
  function palindromo (word){
  
     let reverse = '';
@@ -27,7 +29,7 @@
 
         reverse += word[i];
     }
-
+// se la parola e palindromo va bene, altrimenti non è palindromo
     if(reverse == word){
         console.log('è palindromo');
     }
@@ -35,5 +37,5 @@
         console.log("non è palindormo");
     }
 }
-
+//prendre nome funzione con (costante della domanda fatta all'utente )
 palindromo(parola);
