@@ -1,4 +1,7 @@
+
 const parola = (prompt('Inserisci una parola'));
+
+
 
 function palindromo(word){
 
@@ -14,72 +17,4 @@ function palindromo(word){
 };
 
 palindromo(parola);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function parolaInversa (word){
-//    for (let i = 0; i < word.length; i--){
-// }
-
-// }
-
-
-
-// function confrontoParola (word){
-    
-//     if (word == parolaInversa){
-//         return true
-//     }
-
-//     else{
-//         return false 
-//      }   
-// }
-
-
-//  let result = confrontoParola (word)
-
-//  if(result == true){
-//      console.log('è palindroma ')
-//  }
-
-
-//  else{
-//     console.log ('non è palindroma')
-// }
-
 
